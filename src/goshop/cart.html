@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Go Shop Bike</title>
+
+
+  <!-- font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- inject:css -->
+  <link rel="stylesheet" href="assets/css/app.css">
+  <!-- endinject -->
+</head>
+<body>
+  <nav>
+    <div class="nav-top">
+      <div class="container-fluid">
+        <ul>
+          <li><a href="#">EN</a></li>
+          <li class="right"><a href="#">$USD</a></li>         
+          <li><a href="#">MY ACCOUNT</a></li>
+          <li><a href="#">MY CART</a></li>
+          <li><a href="#">CHECK OUT</a></li>
+        </ul>
+      </div>
+    </div> 
+    <div class="nav-bottom">
+      <div class="container-fluid">
+       <ul>
+        <li class="right"><a href="#">GO  SHOP <span>BIKE</span></a></li>
+        <li><a href="#"  class="active" >HOME</a></li>
+        <li><a href="#">BIKES</a></li>
+        <li><a href="#">CLOTHING</a></li>
+        <li><a href="#">COMPONENTS</a></li>
+        <li><a href="#">ACCESORIES</a></li>
+        <li><a href="#">PROTECTION</a></li>
+        <i class="fa fa-search"></i>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="title-product">
+  <div class="title-header">
+    <h2>YOUR CART</h2>
+    <ul>
+      <li><i class="fa fa-home"></i><a href="">HOME</a></li>
+      <li><i class="fa fa-arrow-circle-right"></i><a href="">CART</a></li>
+    </ul>
+  </div>
+</section>
+
+<section id="cart">
+  <div class="top-cart">
+    <ul>
+      <li><a href="">Your Cart</a></li>
+      <li><a href="">CONTINUE SHOPPING</a></li>
+    </ul>
+  </div>
+  <div class="container">
+    <table class="table table-bordered cart-table">
+      <tbody>
+        <tr>
+          <td><img src="assets/images/model-1.jpg" alt="">
+            <ul>
+              <li><i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-half-empty"></i></li>
+               <h4>FLUSAS DENIM <span>DRESS</span></h4>
+               <p>Women Collection</p>
+             </ul>
+           </td>
+           <td class="table-2">
+            <p>$175.00 <del>$299.00</del></p>
+            <p>Special Offers: <strong>Discount 50%</strong></p>
+          </td>
+          <td>2pcs</td>
+          <td>$375.00 button<i class="fa fa-close" id="close-cart"></i></td>
+        </tr>
+        <tr>  
+          <td><img src="assets/images/model-1.jpg" alt="">
+            <ul>
+              <li><i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-half-empty"></i></li>
+               <h4>FLUSAS DENIM <span>DRESS</span></h4>
+               <p>Women Collection</p>
+             </ul>
+           </td>
+           <td class="table-2">
+            <p>$175.00 <del>$299.00</del></p>
+            <p>Special Offers: <strong>Discount 50%</strong></p>
+          </td>
+          <td>2pcs</td>
+          <td>$375.00</td>
+        </tr>
+        <tr>
+          <td><img src="assets/images/model-1.jpg" alt="">
+            <ul>
+             <li><i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-empty"></i></li>
+              <h4>FLUSAS DENIM <span>DRESS</span></h4>
+              <p>Women Collection</p>
+            </ul>
+          </td>
+          <td class="table-2">
+            <p>$175.00 <del>$299.00</del></p>
+            <p>Special Offers: <strong>Discount 50%</strong></p>
+          </td>
+          <td>2pcs</td>
+          <td>$375.00</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--<div class="row cart-table">
+      <div class="col-md-4">
+        <table>
+          <tr>
+            <th><img src="assets/images/model-1.jpg" alt=""></th>
+            <th>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-empty"></i>
+              <h4>FLUSAS DENIM <span>DRESS</span></h4>
+              <p>Women Collection</p>
+            </th>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-3 table-2">
+        <p>$175.00 <del>$299.00</del></p>
+        <p>Special Offers: <strong>Discount 50%</strong></p>
+      </div>
+      <div class="col-md-2">
+        2pcs
+      </div>
+      <div class="col-md-3">
+       <p>$375.00</p>
+     </div>
+     <div class="col-md-4">
+      <table>
+        <tr>
+          <th><img src="assets/images/model-1.jpg" alt=""></th>
+          <th>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-empty"></i>
+            <h4>FLUSAS DENIM <span>DRESS</span></h4>
+            <p>Women Collection</p>
+          </th>
+        </tr>
+      </table>
+    </div>
+    <div class="col-md-3 table-2">
+      <p>$175.00 <del>$299.00</del></p>
+      <p>Special Offers: <strong>Discount 50%</strong></p>
+    </div>
+    <div class="col-md-2">
+      2pcs
+    </div>
+    <div class="col-md-3">
+     <p>$375.00</p>
+   </div>
+   <div class="col-md-4">
+    <table>
+      <tr>
+        <th><img src="assets/images/model-1.jpg" alt=""></th>
+        <th>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star-half-empty"></i>
+         <h4>FLUSAS DENIM <span>DRESS</span></h4>
+         <p>Women Collection</p>
+       </th>
+     </tr>
+   </table>
+ </div>
+    <div class="col-md-3 table-2">
+     <p>$175.00 <del>$299.00</del></p>
+      <p>Special Offers: <strong>Discount 50%</strong></p>
+    </div>
+      <div class="col-md-2">
+        2pcs
+      </div>
+      <div class="col-md-3">
+        <p>$375.00</p>
+      </div>
+    </div>
+  </div>-->
+  <div class="container cart-note">
+    <div class="row">
+      <div class="col-md-4">
+        <h4>CALCULATED SHIPPING <hr id="style-hr"></h4>
+        <div class="input-group mb-3">
+          <select class="custom-select" >
+            <option selected>Country</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="input-group mb-3">
+          <select class="custom-select" >
+            <option selected>State/Province</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="input-group mb-3">
+          <select class="custom-select" >
+            <option selected>ZIP/Portal Code</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <button type="button" class="btn btn-dark">UPDATE</button>
+      </div>
+      <div class="col-md-4">
+        <h4>CART TOTAL <hr id="style-hr"></h4>
+        <p>Sub Total:</p>
+        <hr>
+        <p>Shipping Charge:</p>
+        <hr>
+        <p>Promo Discount:</p>
+        <hr>
+        <button type="button" class="btn btn-dark">ORDER TOTAL</button>
+      </div>
+      <div class="col-md-4">
+        <h4>APPLY COUPON CODE <hr id="style-hr"></h4>
+        <p>ASIN: <span>B00IL3TMFW</span></p>
+        <p>Shipping Weight: 1.8 pounds</p>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="ENTER CODE">
+        <button type="button" class="btn btn-dark"> APPLY </button>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="cart-btm">
+    <button>PROCED TO CHECKOUT</button>
+  </div>
+</section>
+
+<section id="related">
+  <div class="title">
+    <h2>RELATED PRODUCTS</h2>
+    <p>Costumer who viewed this item also viewed</p>
+  </div>
+  <div class="slider-2">
+    <div><img src="assets/images/model-1.jpg" alt=""></div>
+    <div><img src="assets/images/model-2.jpg" alt=""></div>
+    <div><img src="assets/images/model-3.jpg" alt=""></div>
+    <div><img src="assets/images/model-3.jpg" alt=""></div>
+    <div><img src="assets/images/model-1.jpg" alt=""></div>
+  </div>
+</section>
+
+<footer>
+  <div class="f-top container-fluid">
+    <div class="row">
+      <div class="col">
+        <h2>GO SHOP BIKE</h2>
+        <p>Ecommerce PSD Template</p>
+        <ul class="social">
+          <li> <a href="#"> <i class=" fa fa-facebook">   </i> </a> </li>
+          <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
+          <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
+          <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
+          <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>MY ACCOUNT</h4>
+        <ul>
+          <li><a href="">Personal Information</a></li>
+          <li><a href="">Address</a></li>
+          <li><a href="">Discount</a></li>
+          <li><a href="">Order History</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>OUR SERVICE</h4>
+        <ul>
+          <li><a href="">Shipping Return</a></li>
+          <li><a href="">International Shipping</a></li>
+          <li><a href="">Secure Shopping</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Affliates</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>Contact Us</h4>
+        <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque</p>
+        <input type="text" placeholder="Your Email.">
+        <i class="fa fa-envelope-o" style="background:  #ff3300;"></i>
+      </div>
+    </div>
+    <hr>
+    <div class="f-top-2">
+      <ul>
+        <li><a href="">ATOS</a></li>
+        <li><a href="">VERISIGN</a></li>
+        <li><a href="">VISA</a></li>
+        <li><a href="">DISCOVER</a></li>
+        <li><a href="">PAYPAL</a></li>
+        <li><a href="">PAYONEER</a></li>
+        <li><a href="">CITY BANK</a></li>
+        <li><a href="">SKILL</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="f-bottom">
+    <p> Copyright <span> GoShop</span> by Youwes. All Right Reserved 2015</p>
+  </div>
+</footer>
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- inject:js -->
+<script src="assets/scripts/libraries.js"></script>
+<script src="assets/scripts/app.js"></script>
+<!-- endinject -->
+</body>
+</html>

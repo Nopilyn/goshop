@@ -1,8 +1,15 @@
 // List Projects
 	const projects = [
 		{
-
 			name: 'dpm-ptsp',
+			script: [
+				"node_modules/jquery/dist/jquery.min.js",
+				"node_modules/popper.js/dist/umd/popper.min.js",
+				"node_modules/bootstrap/dist/js/bootstrap.min.js"
+			]
+		},
+		{
+			name: 'ptsp-makassar',
 			script: [
 				"node_modules/jquery/dist/jquery.min.js",
 				"node_modules/popper.js/dist/umd/popper.min.js",
@@ -16,6 +23,17 @@
 				"node_modules/popper.js/dist/umd/popper.min.js",
 				"node_modules/bootstrap/dist/js/bootstrap.min.js",
 				"node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"
+			]
+		},
+		{
+			name: 'goshop',
+			script: [
+				"node_modules/jquery/dist/jquery.min.js",
+				"node_modules/popper.js/dist/umd/popper.min.js",
+				"node_modules/bootstrap/dist/js/bootstrap.min.js",
+				"node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js",
+				"node_modules/slick-carousel/slick/dist/js/slick.js",
+				"node_modules/slick-carousel/slick/dist/js/slick.min.js",
 			]
 		},
 	]
@@ -57,6 +75,8 @@
 	const libraries = {
 		scripts: [
 			'node_modules/bootstrap/dist/js/bootstrap.min.js'
+
+
 		]
 	}
 
